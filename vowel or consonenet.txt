@@ -1,0 +1,19 @@
+#inclue<stdio.h>
+void main()
+{
+    char ch vowel,consonent;
+    printf("enter ch value");
+    scanf("%d,&ch");
+    if(ch=='a'||ch='e'||ch=='i'||ch=='o'||ch=='u)
+    {
+        printf("ch is vowel");
+        }
+        else if(ch>='a'&&ch<='z')
+        {
+            printf("ch is consonant");
+        }
+        else
+        {
+            printf("ch is not aconsonent");
+        }
+}
